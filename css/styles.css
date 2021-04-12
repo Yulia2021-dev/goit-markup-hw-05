@@ -2,7 +2,7 @@
 
 :root {
     --main-font-family: 'Roboto', sans-serif;
-    --secondary-fon-family: 'Raleway', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
     --main-bg-color: #fff;
     --main-text-color: #212121;
     --secondary-color: #757575;
@@ -188,7 +188,7 @@ address {
 .menu-link:hover::after {
     content: '';
     position: absolute;
-    bottom: -15px;
+    bottom: -27px;
     left: 0;
     width: 100%;
     height: 4px;
@@ -204,7 +204,7 @@ address {
 .active::after {
     content: '';
     position: absolute;
-    bottom: -15px;
+    bottom: -27px;
     left: 0;
     width: 100%;
     height: 4px;
@@ -429,7 +429,6 @@ address {
     border-radius: 50%;
     width: 45px;
     height: 45px;
-    transition: var(--animatio-time);
 }
 
 .social-icons-link:hover .icon, .social-icons-link:focus .icon {
@@ -654,7 +653,6 @@ address {
 .works-way-text {
     position: absolute;
     width: 370px;
-    height: 70px;
     bottom: 0;
     background: rgba(47, 48, 58, 0.8);
 }
